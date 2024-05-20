@@ -1,10 +1,10 @@
 from tkinter import *
 import random
-font = "Verdana 12 bold" #шрифт
-BG = "#262622" #цвет фона
-FG = "#F3F1ED" #цвет текста
-BTNC = "#FF6800" #цвет кнопки
-ACTIVE = "#CA883E" #цвет активного состояния
+font = "Verdana 12 bold"  # шрифт
+BG = "#262622"  # цвет фона
+FG = "#F3F1ED"  # цвет текста
+BTNC = "#FF6800"  # цвет кнопки
+ACTIVE = "#CA883E"  # цвет активного состояния
 
 def generate():
     if ent1.get() == "":
@@ -18,7 +18,7 @@ def generate():
             ent2.delete(0, END)
             ent2.insert(0, "Выберите символы!")
         else:
-            c = int(ent1.get())  #кол-во символов
+            c = int(ent1.get())  # кол-во символов
 
             alp = ""
             psw = ""
